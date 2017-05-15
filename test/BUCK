@@ -1,0 +1,92 @@
+cxx_binary(
+  name = 'testatomic',
+  srcs = [
+    'testatomic.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'testiconv',
+  srcs = [
+    'testiconv.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'testfile',
+  srcs = [
+    'testfile.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'testdrawchessboard',
+  srcs = [
+    'testdrawchessboard.c',
+  ],
+  compiler_flags = [
+    '-g',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'testdraw2',
+  srcs = [
+    'testdraw2.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'testhaptic',
+  srcs = [
+    'testhaptic.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'testlock',
+  srcs = [
+    'testlock.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'loopwave',
+  srcs = [
+    'loopwave.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
+
+cxx_binary(
+  name = 'loopwavequeue',
+  srcs = [
+    'loopwavequeue.c',
+  ],
+  deps = [
+    '//:sdl2',
+  ],
+)
